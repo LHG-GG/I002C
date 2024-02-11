@@ -7,21 +7,21 @@ SampleType | SampleID | HiFi (REVIO) | Duplex | MGI
 Father|I002A|60x|21x|35x
 Mother|I002B|61x|20x|37x
 
-Full details of the data statistics are provided in the [excel]()
+The data statistics are provided in the [excel]()
 
 # Assembly release
 ### v0.2
-This version of the assembly contains Telomere-to-Telomere chromsomes for both maternal and paternal haplotypes including a mitochondria. In this version of the genomes, rDNAs have not been resolved. We have provided the potential rDNA cluster region in the acro-centric chromosomes as a bed files.
+This version of the assembly contains Telomere-to-Telomere chromsomes for both maternal and paternal haplotypes including a mitochondria. In this version of the genomes, rDNAs have not been resolved. 
 
  &nbsp;|Maternal|Paternal
 ---|:---:|:---:
 T2T Chromosomes|23|23
 Size|3,032,133,819|2,936,860,581
 NG50|146,057,708|140,164,060
-NGA50|88,141,048|85,713,742
 %GC|40.82|40.79
 
 Assembly files: 
-- Maternal: [Fasta](), [rDNA loci]()
-- Paternal: [Fasta](), [rDNA loci]()
+- Maternal: [Fasta]()
+- Paternal: [Fasta]()
 
+**Note:** Assembly QV is calculated with [yak](https://github.com/lh3/yak) tool using I002C MGI WGS dataset. 
