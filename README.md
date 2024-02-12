@@ -16,8 +16,8 @@ This version of the assembly contains Telomere-to-Telomere chromsomes for both m
  &nbsp;|Maternal|Paternal
 ---|:---:|:---:
 T2T Chromosomes|23|23
-Size|3,032,133,819|2,936,860,581
-NG50|146,057,708|140,164,060
+Size|3,022,465,370|2,934,829,127
+NG50|154,891,367|146,273,588
 %GC|40.82|40.79
 
 Assembly files: 
