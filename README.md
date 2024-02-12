@@ -25,4 +25,6 @@ Assembly files:
 - Paternal: [Fasta](https://figshare.com/ndownloader/files/44506241)
 - Mitochondira: [Fasta](https://figshare.com/ndownloader/files/44506232)
 
-**Note:** Assembly QV is calculated with [yak](https://github.com/lh3/yak) tool using I002C MGI WGS dataset. Per chromosome QV values are provided in an [excel](Data/Assembly) file
+Assembly QV is calculated with [yak](https://github.com/lh3/yak) tool using I002C MGI WGS dataset. Per chromosome QV values are provided in an [excel](Data/Assembly) file
+
+**Note:** The data available on this GitHub page can be accessed either from [LHG](https://github.com/LHG-GG/I002C) or [LBCB](https://github.com/lbcb-sci/I002C) GitHub pages
