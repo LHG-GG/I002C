@@ -7,7 +7,7 @@ SampleType | SampleID | HiFi (REVIO) | Duplex | MGI
 Father|I002A|60x|21x|35x
 Mother|I002B|61x|20x|37x
 
-The data statistics are provided in the [excel]()
+The data statistics are provided in an [excel](Data/Reads)
 
 # Assembly release
 ### v0.2
@@ -21,7 +21,8 @@ NG50|146,057,708|140,164,060
 %GC|40.82|40.79
 
 Assembly files: 
-- Maternal: [Fasta]()
-- Paternal: [Fasta]()
+- Maternal: [Fasta](https://figshare.com/ndownloader/files/44506250)
+- Paternal: [Fasta](https://figshare.com/ndownloader/files/44506241)
+- Mitochondira: [Fasta](https://figshare.com/ndownloader/files/44506232)
 
-**Note:** Assembly QV is calculated with [yak](https://github.com/lh3/yak) tool using I002C MGI WGS dataset. 
+**Note:** Assembly QV is calculated with [yak](https://github.com/lh3/yak) tool using I002C MGI WGS dataset. Per chromosome QV values are provided in an [excel](Data/Assembly) file
