@@ -20,10 +20,12 @@ Size|3,022,465,370|2,934,829,127
 NG50|154,891,367|146,273,588
 %GC|40.82|40.79
 
-Assembly files: 
-- Maternal: [Fasta](https://figshare.com/ndownloader/files/44506250)
-- Paternal: [Fasta](https://figshare.com/ndownloader/files/44506241)
-- Mitochondira: [Fasta](https://figshare.com/ndownloader/files/44506232)
+Assembly files (zipped): 
+- Maternal: [Fasta](https://figshare.com/ndownloader/files/44506250) 
+- Paternal: [Fasta](https://figshare.com/ndownloader/files/44506241) 
+- Mitochondira: [Fasta](https://figshare.com/ndownloader/files/44506232) 
+
+If you wish to download the files using wget, you may use `wget -O <haplotype>.fasta.gz <link>`
 
 Assembly QV is calculated with [yak](https://github.com/lh3/yak) tool using I002C MGI WGS dataset. Per chromosome QV values are provided in an [excel](Data/Assembly) file
 
