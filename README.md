@@ -17,7 +17,7 @@ This assembly version results from performing two rounds of polishing, as outlin
 - Maternal: [Fasta](https://figshare.com/ndownloader/files/46211781?private_link=56295c4b2905cef7187f) 
 - Paternal: [Fasta](https://figshare.com/ndownloader/files/46211697?private_link=c8a5045cd96979c86939) 
 
-Assembly QV per chromosome values after 2 polishing rounds are listed in an [excel](Data/Assembly) file. QV values are estimated using hybrid k-mers from Pacbio HiFi and MGI WGS data as described in [^2]
+Assembly QV per chromosome values after 2 polishing rounds are listed in an [excel](Data/Assembly) file. The v0.4 assembly has a improved QV values, with Maternal at 72.35 and Paternal at 70.97. QV values are estimated using hybrid k-mers generated from Pacbio HiFi and MGI WGS data as described in [^2]
 
 ### v0.2
 
