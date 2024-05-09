@@ -10,7 +10,17 @@ Mother|I002B|61x|20x|37x
 The data statistics are provided in an [excel](Data/Reads)
 
 # Assembly release
+
+### v0.4
+
+This assembly version results from performing two rounds of polishing, as outlined in the procedure from [^1].
+- Maternal: [Fasta](https://figshare.com/ndownloader/files/46211781?private_link=56295c4b2905cef7187f) 
+- Paternal: [Fasta](https://figshare.com/ndownloader/files/46211697?private_link=c8a5045cd96979c86939) 
+
+Assembly QV per chromosome values after 2 polishing rounds are listed in an [excel](Data/Assembly) file. QV values are estimated using hybrid k-mers from Pacbio HiFi and MGI WGS data as described in [^2]
+
 ### v0.2
+
 This version of the assembly contains Telomere-to-Telomere chromsomes for both maternal and paternal haplotypes including a mitochondria. In this version of the genomes, rDNAs have not been resolved. 
 
  &nbsp;|Maternal|Paternal
@@ -30,3 +40,6 @@ If you wish to download the files using wget, you may use `wget -O <haplotype>.f
 Assembly QV is calculated with [yak](https://github.com/lh3/yak) tool using I002C MGI WGS dataset. Per chromosome QV values are provided in an [excel](Data/Assembly) file
 
 **Note:** The data available on this GitHub page can be accessed either from [LHG](https://github.com/LHG-GG/I002C) or [LBCB](https://github.com/lbcb-sci/I002C) GitHub pages
+
+[^1]: Mc Cartney, Ann M., et al. "Chasing perfection: validation and polishing strategies for telomere-to-telomere genome assemblies." Nature methods 19.6 (2022): 687-695.
+[^2]: https://github.com/arangrhie/T2T-Polish/tree/master/merqury
