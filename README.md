@@ -11,6 +11,14 @@ The data statistics are provided in an [excel](Data/Reads)
 
 # Assembly release
 
+### v0.7
+The latest version of assembly with combined QV of 82.
+- Maternal [Fasta](https://figshare.com/ndownloader/files/53198075)
+- Paternal [Fasta](https://figshare.com/ndownloader/files/53234591)
+
+Reads can be downloaded from SRA [PRJNA1150503](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1150503). Please cite the below article if you use the dataset.
+
+Sarashetti, P., Lipovac, J., Tomas, F. et al. Evaluating data requirements for high-quality haplotype-resolved genomes for creating robust pangenome references. Genome Biol 25, 312 (2024). https://doi.org/10.1186/s13059-024-03452-y
 ### v0.4
 
 This assembly version results from performing two rounds of polishing, as outlined in the procedure from [^1].
