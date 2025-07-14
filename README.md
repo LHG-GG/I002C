@@ -13,7 +13,7 @@ The data statistics are provided in an [excel](Data/Reads)
 
 ### v0.7
 The latest version of assembly with combined QV of 82.
-- Maternal [Fasta](https://figshare.com/ndownloader/files/56238578)
+- Maternal [Fasta](https://figshare.com/ndownloader/files/56240441)
 - Paternal [Fasta](https://figshare.com/ndownloader/files/56238836) 
 
 Reads can be downloaded from SRA [PRJNA1150503](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1150503). Please cite the below article if you use the dataset.
