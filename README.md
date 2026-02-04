@@ -14,12 +14,18 @@ Reads can be downloaded from SRA [PRJNA1150503](https://www.ncbi.nlm.nih.gov/bio
 Sarashetti, P., Lipovac, J., Tomas, F. et al. Evaluating data requirements for high-quality haplotype-resolved genomes for creating robust pangenome references. Genome Biol 25, 312 (2024). https://doi.org/10.1186/s13059-024-03452-y
 # Assembly release
 
-### v0.7
+## v0.7
 The latest version of assembly with combined QV of 82.
 - Maternal [Fasta](https://figshare.com/ndownloader/files/56240441)
 - Paternal [Fasta](https://figshare.com/ndownloader/files/56238836) 
 
-### v0.4
+### Annotations
+#### **Gene Annotations**
+    
+  | File |Description|Link|
+  |:----|:----|:----:|
+  |I002C_Maternal_v0.7_LiftOver.gff3.gz|GRCh38 Gencode (v48) annotation for maternal haplotype|[⬇️download]()| 
+## v0.4
 
 This assembly version results from performing two rounds of polishing, as outlined in the procedure from [^1].
 - Maternal: [Fasta](https://figshare.com/ndownloader/files/46211781?private_link=56295c4b2905cef7187f) 
@@ -27,7 +33,7 @@ This assembly version results from performing two rounds of polishing, as outlin
 
 The v0.4 assembly has a improved QV values, with Maternal at 72.35 and Paternal at 70.97. QV values are estimated using hybrid k-mers generated from Pacbio HiFi and MGI WGS data as described in [^2]. Chromosome wise QV values are listed in an [excel](Data/Assembly) file. 
 
-### v0.2
+## v0.2
 
 This version of the assembly contains Telomere-to-Telomere chromsomes for both maternal and paternal haplotypes including a mitochondria. In this version of the genomes, rDNAs have not been resolved. 
 
