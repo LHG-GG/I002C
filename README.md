@@ -83,7 +83,9 @@ Assembly files (zipped):
 - Paternal: [Fasta](https://figshare.com/ndownloader/files/44506241) 
 - Mitochondira: [Fasta](https://figshare.com/ndownloader/files/44506232) 
 
-If you wish to download the files using wget, you may use `wget -O <haplotype>.fasta.gz <link>`
+### Downloading
+If you wish to download the files using wget, you may use 
+`wget -O <fileName> -U "Mozilla/5.0" --no-check-certificate <link>`
 
 Assembly QV is calculated with [yak](https://github.com/lh3/yak) tool using I002C MGI WGS dataset. Per chromosome QV values are provided in an [excel](Data/Assembly) file
 
