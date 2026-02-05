@@ -44,7 +44,7 @@ The latest version of assembly with combined QV of 82.
 #### **:black_small_square: Chain files**
   | File |Description|Link|
   |:----|:----|:----:|
-  |**GRCh38 (GENCODE v48 - GRCh38.p14) <-> I002C**|||
+  |**GRCh38.p14 (GENCODE v48) <-> I002C**|||
   |`HG38ToMat.chain.gz`|hg38 to maternal haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627954)|
   |`HG38ToPat.chain.gz`|hg38 to paternal haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627957)|
   |`HG38ToHaploid.chain.gz`|hg38 to haploid haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627951)|
