@@ -20,11 +20,45 @@ The latest version of assembly with combined QV of 82.
 - Paternal [Fasta](https://figshare.com/ndownloader/files/56238836) 
 
 ### Annotations
-#### **Gene Annotations**
+#### **:black_small_square: Gene Annotations**
     
   | File |Description|Link|
   |:----|:----|:----:|
-  |I002C_Maternal_v0.7_LiftOver.gff3.gz|GRCh38 Gencode (v48) annotation for maternal haplotype|[⬇️download]()| 
+  |`I002C_Maternal_v0.7_LiftOver.gff3.gz`|GRCh38 Gencode (v48) annotation for maternal haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627282)|
+  |`I002C_Maternal_v0.7_bambu.gtf.gz`|bambu annotations for maternal haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627285)|
+  |`I002C_Paternal_v0.7_LiftOver.gff3.gz`|GRCh38 Gencode (v48) annotation for paternal haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627276)|
+  |`I002C_Paternal_v0.7_bambu.gtf.gz`|bambu annotations for maternal haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627288)|
+
+#### **:black_small_square: Repeat Annotations** 
+##### **Method:** RepeatMasker (v4.1.5) using Dfam (v3.7)
+
+  | File |Description|Link|
+  |:----|:----|:----:|
+  |`I002C_Maternal_v0.7.fasta.out.gz`|Maternal RM annotation in dafault `.out` format|[⬇️download](https://ndownloader.figshare.com/files/61623808)|
+  |`I002C_Maternal_v0.7.fasta_rm.bed.gz`|Maternal RM annotation in `.bed` format|[⬇️download](https://ndownloader.figshare.com/files/61623802)|
+  |`I002C_Paternal_v0.7.fasta.out.gz`|Paternal RM annotation in dafault `.out` format|[⬇️download](https://ndownloader.figshare.com/files/61623937)|
+  |`I002C_Paternal_v0.7.fasta_rm.bed.gz`|Paternal RM annotation in `.bed` format|[⬇️download](https://ndownloader.figshare.com/files/61623931)|
+  |`I002C_Maternal_v0.7_Centromere.bed`|Maternal centromere annotations|[⬇️download](https://ndownloader.figshare.com/files/61627390)|
+  |`I002C_Paternal_v0.7_Centromere.bed`|Paternal centromere annotations|[⬇️download](https://ndownloader.figshare.com/files/61627387)|
+
+#### **:black_small_square: Chain files**
+  | File |Description|Link|
+  |:----|:----|:----:|
+  |**GRCh38 <-> I002C**|||
+  |`HG38ToMat.chain.gz`|hg38 to maternal haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627954)|
+  |`HG38ToPat.chain.gz`|hg38 to paternal haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627957)|
+  |`HG38ToHaploid.chain.gz`|hg38 to haploid haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627951)|
+  |`MatToHG38.chain.gz`|Maternal haplotype to hg38|[⬇️download](https://ndownloader.figshare.com/files/61627963)|
+  |`PatToHG38.chain.gz`|Paternal haplotype to hg38|[⬇️download](https://ndownloader.figshare.com/files/61627969)|
+  |`HaploidToHG38.chain.gz`|Haploid haplotype to hg38|[⬇️download](https://ndownloader.figshare.com/files/61627948)|
+  |**CHM13 (v2.0) <-> I002C**|||
+  |`CHM13ToMat.chain.gz`|CHM13 to maternal haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627939)|
+  |`CHM13ToPat.chain.gz`|CHM13 to paternal haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627942)|
+  |`CHM13ToHaploid.chain.gz`|CHM13 to haploid haplotype|[⬇️download](https://ndownloader.figshare.com/files/61627936)|
+  |`MatToCHM13.chain.gz`|Maternal haplotype to CHM13|[⬇️download](https://ndownloader.figshare.com/files/61627960)|
+  |`PatToCHM13.chain.gz`|Paternal haplotype to CHM13|[⬇️download](https://ndownloader.figshare.com/files/61627966)|
+  |`HaploidToCHM13.chain.gz`|Haploid haplotype to CHM13|[⬇️download](https://ndownloader.figshare.com/files/61627945)|
+
 ## v0.4
 
 This assembly version results from performing two rounds of polishing, as outlined in the procedure from [^1].
