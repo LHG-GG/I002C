@@ -1,0 +1,5 @@
+This directory contains NucPlot-based coverage profiles for genomic regions surrounding gaps, shown before and after gap closing. Coverage was plotted using long-read datasets, including Duplex, HiFi, and ultra-long ONT reads.
+In each figure, the first column corresponds to the region before gap closing, while the second column shows the region after gap closing. Gaps are explicitly labeled in the first column (prior to gap closure).
+Within each column, rows represent different sequencing technologies: the first row shows Duplex coverage, the second row HiFi coverage, and the third row ultra-long ONT coverage.
+Gap labels are color-coded according to the closure strategy: dark blue indicates gaps closed by patching, blue denotes gaps closed by removing larger deletions, light blue corresponds to gaps closed using TGS-gapcloser, and mint green marks artificial gaps.
+Additional details are provided [here](https://docs.google.com/spreadsheets/d/1PilPytJuyKJQ6_65cw806nSay7ZxJsw1q852Rmi7Zlo/edit?usp=sharing).
