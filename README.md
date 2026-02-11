@@ -41,6 +41,14 @@ The latest version of assembly with combined QV of 82.
   |`I002C_Maternal_v0.7_Centromere.bed`|Maternal centromere annotations|[⬇️download](https://ndownloader.figshare.com/files/61627390)|
   |`I002C_Paternal_v0.7_Centromere.bed`|Paternal centromere annotations|[⬇️download](https://ndownloader.figshare.com/files/61627387)|
 
+#### **:black_small_square: Coverage issues files**
+  | File |Description|Link|
+  |:----|:----|:----:|
+  |`I002C_Maternal_v0.7_Flagger_regions.bed.gz`|Maternal issues track based on Flagger|[⬇️download](https://ndownloader.figshare.com/files/61789729)|
+  |`I002C_Paternal_v0.7_Flagger_regions.bed.gz`|Paternal issues track based on Flagger|[⬇️download](https://ndownloader.figshare.com/files/61789726)|
+  |`I002C_Maternal_v0.7_coverage_issues.bed`|Maternal issues track based on coverage analysis[^1]|[⬇️download](https://ndownloader.figshare.com/files/61789732)|
+  |`I002C_Paternal_v0.7_coverage_issues.bed`|Paternal issues track based on coverage analysis|[⬇️download](https://ndownloader.figshare.com/files/61789735)|
+
 #### **:black_small_square: Chain files**
   | File |Description|Link|
   |:----|:----|:----:|
@@ -61,11 +69,11 @@ The latest version of assembly with combined QV of 82.
 
 ## v0.4
 
-This assembly version results from performing two rounds of polishing, as outlined in the procedure from [^1].
+This assembly version results from performing two rounds of polishing, as outlined in the procedure from[^2].
 - Maternal: [Fasta](https://figshare.com/ndownloader/files/46211781?private_link=56295c4b2905cef7187f) 
 - Paternal: [Fasta](https://figshare.com/ndownloader/files/46211697?private_link=c8a5045cd96979c86939) 
 
-The v0.4 assembly has a improved QV values, with Maternal at 72.35 and Paternal at 70.97. QV values are estimated using hybrid k-mers generated from Pacbio HiFi and MGI WGS data as described in [^2]. Chromosome wise QV values are listed in an [excel](Data/Assembly) file. 
+The v0.4 assembly has a improved QV values, with Maternal at 72.35 and Paternal at 70.97. QV values are estimated using hybrid k-mers generated from Pacbio HiFi and MGI WGS data as described in[^3]. Chromosome wise QV values are listed in an [excel](Data/Assembly) file. 
 
 ## v0.2
 
@@ -81,7 +89,8 @@ NG50|154,891,367|146,273,588
 Assembly files (zipped): 
 - Maternal: [Fasta](https://figshare.com/ndownloader/files/44506250) 
 - Paternal: [Fasta](https://figshare.com/ndownloader/files/44506241) 
-- Mitochondira: [Fasta](https://figshare.com/ndownloader/files/44506232) 
+- Mitochondira: [Fasta](https://figshare.com/ndownloader/files/44506232)
+- Verkko unassigned: [Fasta](https://ndownloader.figshare.com/files/61789903)
 
 ### Downloading
 If you wish to download the files using wget, you may use 
@@ -91,5 +100,6 @@ Assembly QV is calculated with [yak](https://github.com/lh3/yak) tool using I002
 
 **Note:** The data available on this GitHub page can be accessed either from [LHG](https://github.com/LHG-GG/I002C) or [LBCB](https://github.com/lbcb-sci/I002C) GitHub pages
 
-[^1]: Mc Cartney, Ann M., et al. "Chasing perfection: validation and polishing strategies for telomere-to-telomere genome assemblies." Nature methods 19.6 (2022): 687-695.
-[^2]: https://github.com/arangrhie/T2T-Polish/tree/master/merqury
+[^1]: https://github.com/marbl/CHM13-issues/blob/main/coverage.md
+[^2]: Mc Cartney, Ann M., et al. "Chasing perfection: validation and polishing strategies for telomere-to-telomere genome assemblies." Nature methods 19.6 (2022): 687-695.
+[^3]: https://github.com/arangrhie/T2T-Polish/tree/master/merqury
