@@ -40,6 +40,7 @@ The latest version of assembly with combined QV of 82.
   |`I002C_Paternal_v0.7.fasta_rm.bed.gz`|Paternal RM annotation in `.bed` format|[⬇️download](https://ndownloader.figshare.com/files/61623931)|
   |`I002C_Maternal_v0.7_Centromere.bed`|Maternal centromere annotations|[⬇️download](https://ndownloader.figshare.com/files/61627390)|
   |`I002C_Paternal_v0.7_Centromere.bed`|Paternal centromere annotations|[⬇️download](https://ndownloader.figshare.com/files/61627387)|
+  |`I002C_centromere_methylation_dip_coordinates.bed`|Centromere methylation dip regions (Maternal and Paternal combined)|[⬇️download](https://ndownloader.figshare.com/files/62375041)|
 
 #### **:black_small_square: Coverage issues files**
   | File |Description|Link|
@@ -66,6 +67,13 @@ The latest version of assembly with combined QV of 82.
   |`MatToCHM13.chain.gz`|Maternal haplotype to CHM13|[⬇️download](https://ndownloader.figshare.com/files/61627960)|
   |`PatToCHM13.chain.gz`|Paternal haplotype to CHM13|[⬇️download](https://ndownloader.figshare.com/files/61627966)|
   |`HaploidToCHM13.chain.gz`|Haploid haplotype to CHM13|[⬇️download](https://ndownloader.figshare.com/files/61627945)|
+
+#### **:black_small_square: Methylation files**
+**Method:** HiFi data was processed using [pb-cpg-tools](https://github.com/PacificBiosciences/pb-CpG-tools) and ONT data using [modbam2bed](https://github.com/epi2me-labs/modbam2bed) with default parameters. The below bed file exclude reference positions with no methylation calling. 
+  | File |Description|Link|
+  |:----|:----|:----:|
+  |`I002C_PacBio_HiFi_REVIO_5mC.bedMethyl.gz`|PacBio HiFi genome-wide methylation bed file against I002C diploid genome|[⬇️download](https://ndownloader.figshare.com/files/62421514)|
+  |`I002C_ONT_R10_5mC.bedMethyl.gz`|ONT R10 simplex genome-wide methylation bed file against I002C diploid genome|[⬇️download](https://ndownloader.figshare.com/files/62423458)|
 
 ## v0.4
 
